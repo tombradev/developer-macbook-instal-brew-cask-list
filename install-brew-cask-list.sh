@@ -7,7 +7,7 @@
 
 
 #Dependencies
-#brew install wget
+brew install wget
 #brew install homebrew/dupes/tidy
 #brew install fish
 #brew install ffmpeg
@@ -19,6 +19,13 @@ brew install node
 brew install homebrew/php/php56
 brew install homebrew/php/php56-xdebug
 brew install homebrew/php/phpsh
+
+# #phalcon
+# brew tap homebrew/homebrew-php
+# brew install php53-phalcon
+# brew install php54-phalcon
+# brew install php55-phalcon
+# brew install php56-phalcon
 
 #database
 brew install mysql
@@ -42,14 +49,28 @@ brew cask install atom
 brew cask install alfred
 brew cask install controlplane
 brew cask install iterm2
-brew cask install sequel-pro
 brew cask install the-unarchiver
 brew cask install github
+brew cask install git
 brew cask install sourcetree
+brew cask install chromecast
+brew cask install utorrent
 
 #internet Browsers
 brew cask install google-chrome
 brew cask install firefox
+
+#web Development
+brew cask install google-web-designer
+
+#DB tool
+brew cask install sequel-pro
+brew cask install mysqlworkbench
+brew cask install robomongo
+#brew cask install google-refine
+
+#mobile development
+brew cask install android-studio
 
 #entertainment
 brew cask install inkscape
@@ -59,7 +80,10 @@ brew cask install rdio
 #communication
 brew cask install skype
 brew cask install slack
+#brew cask install libreoffice
+brew cask install openoffice
 
 #Infastructure
+brew cask install remote-desktop-manager
 brew cask install virtualbox
 brew cask install vagrant
