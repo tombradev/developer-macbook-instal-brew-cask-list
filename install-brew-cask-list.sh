@@ -16,9 +16,9 @@ brew install wget
 brew install node
 
 #php
-brew install homebrew/php/php56
-brew install homebrew/php/php56-xdebug
-brew install homebrew/php/phpsh
+#brew install homebrew/php/php56
+#brew install homebrew/php/php56-xdebug
+#brew install homebrew/php/phpsh
 
 # #phalcon
 # brew tap homebrew/homebrew-php
@@ -28,14 +28,18 @@ brew install homebrew/php/phpsh
 # brew install php56-phalcon
 
 #database
-brew install mysql
+#brew install mysql
 
 # CASK PACKAGE 
 # Some cask packages that I like.
 #
 
+brew install caskroom/cask/brew-cask
+
 #dependencies
-brew cask install xquartz
+#brew cask install xquartz
+brew cask install teamviewer
+#brew cask install flash-player
 
 #file Sharing
 brew cask install dropbox
@@ -46,30 +50,32 @@ brew cask install brackets
 brew cask install atom
 
 #productivity
-brew cask install alfred
-brew cask install controlplane
-brew cask install iterm2
+#brew cask install alfred
+#brew cask install controlplane
+#brew cask install iterm2
 brew cask install the-unarchiver
 brew cask install github
 brew cask install git
 brew cask install sourcetree
 brew cask install chromecast
 brew cask install utorrent
+#brew cask install iexplorer
 
 #internet Browsers
 brew cask install google-chrome
 brew cask install firefox
 
 #web Development
-brew cask install google-web-designer
+#brew cask install google-web-designer
 
 #DB tool
-brew cask install sequel-pro
+#brew cask install sequel-pro
 brew cask install mysqlworkbench
 brew cask install robomongo
 #brew cask install google-refine
 
 #mobile development
+brew cask install java
 brew cask install android-studio
 
 #entertainment
@@ -79,11 +85,11 @@ brew cask install rdio
 
 #communication
 brew cask install skype
-brew cask install slack
+#brew cask install slack
 #brew cask install libreoffice
-brew cask install openoffice
+#brew cask install openoffice
 
 #Infastructure
 brew cask install remote-desktop-manager
 brew cask install virtualbox
-brew cask install vagrant
+#brew cask install vagrant
