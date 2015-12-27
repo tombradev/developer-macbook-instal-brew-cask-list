@@ -20,7 +20,12 @@ brew install node
 #brew install homebrew/php/php56-xdebug
 #brew install homebrew/php/phpsh
 
-# #phalcon
+#php-symfony framework
+#brew install composer
+#brew install symfony
+
+
+# php-phalcon framework
 # brew tap homebrew/homebrew-php
 # brew install php53-phalcon
 # brew install php54-phalcon
